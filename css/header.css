@@ -85,16 +85,17 @@
     .cabecalho__conteudo{
         display: flex;
         padding: 15px;
-        justify-content: space-between;
+        justify-content: center;
         align-items: center;
         width: 100%;
         flex-wrap: wrap;
         margin: 0% 1%;
     }
-    
+
     .imgVideo{
         display: none;
     }
+
 }
 
 
