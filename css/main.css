@@ -1,0 +1,290 @@
+:root {
+    --cor-de-nav: #5D04D9;
+    --cor-de-background: #FFD707;
+    --cor-de-paragrafo: #FFFFFF;
+    --cor--black: black;
+    --cor-de-scroll: #D6D6D6;
+}
+
+
+
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.button__meus__produtos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%; 
+    padding: 50px;
+}
+
+.button__meus__produtos__estilizado{
+    width: 526px; 
+    height: 54px;
+    position: relative;
+    border-radius: 16px;
+    border: 5px solid black;
+    font-size: 1.5rem;
+    font-family: "Press Start 2p", system-ui;
+    background-color: #5d04d954;
+    color: var(--cor-de-paragrafo);
+}   
+
+
+
+.container__card {
+    display: flex;
+    width: 45vw;
+    height: 45vw;
+    padding: 40px;
+    justify-content: center;
+    align-items: center;
+    background-color: #1612359f;
+    border-radius: 10px;
+    flex-wrap: wrap;
+    box-shadow: -10px 10px 4px #ffffff25;
+    margin-bottom: 100px;
+    overflow-y: scroll;
+}
+
+
+.container__card::-webkit-scrollbar{
+    width: 8px;
+    max-height: 256px;
+    background-color: transparent;
+    border-radius: 10px;
+}
+.container__card::-webkit-scrollbar-thumb{
+    background-color: var(--cor-de-scroll);
+    border-radius: 10px;
+}
+
+.card__item {
+    flex-direction: row;
+    background-color: transparent;
+    width: 196px;
+    height: 258px;
+    border: 2px solid rgb(132, 0, 255);
+    border-radius: 10px;
+    margin: 10px;
+}
+.card__item > p{
+    font-family: "IBM Plex Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+    color: var(--cor-de-paragrafo);
+    margin: 10px;
+    font-size: 0.87rem;
+}
+
+
+.texto__final {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "IBM Plex Mono", monospace;
+    font-weight: bold;
+    font-style: normal;
+    color: var(--cor-de-paragrafo);
+    margin: 10px;
+    font-size: 0.87rem;
+}
+
+.card__img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 10px 10px 10px;
+} 
+
+
+.mobile{
+    display: none;
+}
+
+
+
+
+
+
+
+   
+
+ /* Menor que o padrão 960 (dispositivos e navegadores) */
+@media only screen and (max-width: 959px) {
+   
+}
+
+/* Tamanho retrato do tablet no padrão 960 (dispositivos e navegadores) */
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+   
+}
+
+/* Todos os tamanhos de celular (dispositivos e navegador) */
+@media only screen and (max-width: 767px) {
+   
+}
+
+/* Tamanho de paisagem móvel para retrato de tablet (dispositivos e navegadores) */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    
+}
+
+/* Tamanho retrato móvel para tamanho paisagem móvel (dispositivos e navegadores) */
+@media only screen and (max-width: 479px) {
+
+    .teste {
+        min-height: 100vh;
+        box-sizing: border-box;
+        font-family: 'Raleway';
+        margin: 0;
+        padding: 0;
+        line-height: 1;
+        background: url("../imagens/1410.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        overflow-x: hidden;
+    }
+
+    *{
+        overflow-x: hidden;  
+    }
+
+
+    .mobile{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .titulo__center .formulario__titulo{
+        font-size: 1.20rem;
+    }
+
+    .container__formulario{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .formulario__campo{
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .formulario__campo .campo__etiqueta{
+        font-size: 1rem;
+        max-width: 100%;
+    }
+
+    .formulario__campo .campo__escrita{
+        width: 100%;
+    }
+
+    .main {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    
+    
+    .main .button__meus__produtos{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%; 
+        padding: 50px;
+    }
+    
+    .button__meus__produtos .button__meus__produtos__estilizado{
+        width: 526px; 
+        height: 54px;
+        position: relative;
+        border: 5px solid rgba(0, 0, 0, 0);
+        font-size: 1.27rem;
+        font-family: "Press Start 2p", system-ui;
+        background-color: #e9e7eb00;
+        color: var(--cor--black);
+        font-weight: bold;
+    }   
+   
+
+    .container__card {
+        display: flex;
+        width: 50vw;
+        height: 80vw;
+        padding: 40px;
+        justify-content: center;
+        align-items: center;
+        background-color: #1612359f;
+        border-radius: 10px;
+        flex-wrap: nowrap;
+        box-shadow: -10px 10px 4px #ffffff25;
+        margin-bottom: 100px;
+        overflow-y: hidden;
+        overflow-x: scroll;
+    }
+    
+    
+    .container__card::-webkit-scrollbar{
+        width: 8px;
+        max-height: 256px;
+        background-color: transparent;
+        border-radius: 10px;
+    }
+    .container__card::-webkit-scrollbar-thumb{
+        background-color: var(--cor-de-scroll);
+        border-radius: 10px;
+    }
+
+    .card__item {
+        flex: 0 0 auto;
+        flex-direction: row;
+        background-color: transparent;
+        width: 200px;
+        height: auto;
+        border: 2px solid rgb(132, 0, 255);
+        border-radius: 10px;
+        margin: 10px;
+    }
+    .card__item > p{
+        font-family: "IBM Plex Mono", monospace;
+        font-weight: 400;
+        font-style: normal;
+        color: var(--cor-de-paragrafo);
+        margin: 10px;
+        font-size: 0.87rem;
+    }
+    
+    
+    .texto__final {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-family: "IBM Plex Mono", monospace;
+        font-weight: bold;
+        font-style: normal;
+        color: var(--cor-de-paragrafo);
+        margin: 10px;
+        font-size: 0.87rem;
+    }
+    
+    .card__img {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 10px 10px 10px 10px;
+    } 
+}
+

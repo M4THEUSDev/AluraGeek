@@ -1,0 +1,113 @@
+:root {
+    --cor-de-nav: #5D04D9;
+    --cor-de-background: #FFD707;
+    --cor-de-paragrafo: #FFFFFF;
+    --cor--black: black;
+    --cor-de-scroll: #D6D6D6;
+}
+
+
+.titulo__center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.adicionarCard{
+    background-image: url(../imagens/1410.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.container__formulario {
+    width: auto;
+    background-color: rgba(0, 0, 0, 0.486);
+    margin: 3em 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: initial;
+    border-radius: 16px;
+}
+
+.formulario__campo {
+    margin: 1em;
+    font-size: 1.27rem;
+    font-family: "Press Start 2p", system-ui;
+}
+
+.formulario__titulo {
+    font-family: "Press Start 2p", system-ui;
+    color: var(--cor-de-paragrafo);
+    font-weight: bold;
+    font-size: 21px;
+}
+
+.campo__escrita {
+    width: 50vw;
+    border-radius: 24px;
+    display: block;
+    color: black;
+    padding: 1em;
+    background-color: var(--cor--black);
+    margin-top: 1em;
+    border: 1px solid #5D04D9;
+    box-sizing: border-box;
+    border-radius: 16px;
+}
+
+
+
+.campo__etiqueta {
+    line-height: 1.5;
+    padding: 0 0 .1em 1em;
+    font-weight: bold;
+    color: var(--cor-de-paragrafo);
+}
+
+.formulario__botao {
+    font-family: "Press Start 2p", system-ui;
+    padding: 1em 3em;
+    margin: 2em 0;
+    border-radius: 24px;
+    background-color: var(--cor--black);
+    color: var(--cor-de-paragrafo);
+    cursor: pointer;
+    border: none;
+}
+
+
+/* Menor que o padrão 960 (dispositivos e navegadores) */
+@media only screen and (max-width: 959px) {
+   
+}
+
+/* Tamanho retrato do tablet no padrão 960 (dispositivos e navegadores) */
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+   
+}
+
+/* Todos os tamanhos de celular (dispositivos e navegador) */
+@media only screen and (max-width: 767px) {
+   
+}
+
+/* Tamanho de paisagem móvel para retrato de tablet (dispositivos e navegadores) */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    
+}
+
+/* Tamanho retrato móvel para tamanho paisagem móvel (dispositivos e navegadores) */
+@media only screen and (max-width: 479px) {
+    
+}
