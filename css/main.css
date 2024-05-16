@@ -40,8 +40,8 @@
 
 .container__card {
     display: flex;
-    width: 45vw;
-    height: 45vw;
+    width: 35vw;
+    height: 35vw;
     padding: 40px;
     justify-content: center;
     align-items: center;
@@ -86,7 +86,7 @@
 }
 
 
-.texto__final {
+.texto__final  {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -98,8 +98,20 @@
     font-size: 0.87rem;
 }
 
+.texto__final p {
+    margin: 0;     
+}
+
 .card__img {
     display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 10px 10px 10px;
+}
+.card__img img{
+    display: flex;
+    max-width: 100%;
+    max-height: 173px;
     align-items: center;
     justify-content: center;
     margin: 10px 10px 10px 10px;

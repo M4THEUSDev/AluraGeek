@@ -1,0 +1,52 @@
+{
+  "cards": [
+    {
+      "imagem": "imagens/starWars.svg",
+      "nome": "Storm",
+      "valor": "60,00"
+    },
+    {
+      "imagem": "imagens/starWars.svg",
+      "nome": "Storm",
+      "valor": "60,00"
+    },
+    {
+      "imagem": "imagens/starWars.svg",
+      "nome": "Storm",
+      "valor": "60,00"
+    },
+    {
+      "imagem": "imagens/starWars.svg",
+      "nome": "Storm",
+      "valor": "60,00"
+    },
+    {
+      "imagem": "imagens/starWars.svg",
+      "nome": "Storm",
+      "valor": "60,00"
+    },
+    {
+      "imagem": "imagens/starWars.svg",
+      "nome": "Storm",
+      "valor": "60,00"
+    },
+    {
+      "id": "baac",
+      "imagem": "https://p2.trrsf.com/image/fget/cf/940/0/images.terra.com/2018/04/16/chewbacca.jpg",
+      "nome": "Teste",
+      "valor": "75,00"
+    },
+    {
+      "id": "5f5a",
+      "imagem": "https://media.licdn.com/dms/image/D4D03AQGgYsHMGF6x1g/profile-displayphoto-shrink_800_800/0/1693362860471?e=1721260800&v=beta&t=fFHojQXyfMcUtAXOWP1YEg6S3_fnRgjPv_lidc8olL8",
+      "nome": "Eu lindão! ",
+      "valor": "0,00"
+    },
+    {
+      "id": "db0d",
+      "imagem": "https://media.licdn.com/dms/image/D4D03AQHEYj7-u4bqZw/profile-displayphoto-shrink_800_800/0/1714510878728?e=1721260800&v=beta&t=uKoRGFokcjKBvMtWeAgeI-KI0KjNEFoyP1w6JDRyjdQ",
+      "nome": "Gu irmão ",
+      "valor": "0,00"
+    }
+  ]
+}

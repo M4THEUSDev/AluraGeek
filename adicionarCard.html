@@ -33,8 +33,8 @@
         </div>
         <form class="container__formulario" data-formulario>
                 <div class="formulario__campo">
-                    <label class="campo__etiqueta" for="url">Imagem do Card</label>
-                    <input name="url" class="campo__escrita" required
+                    <label class="campo__etiqueta" for="imagem">Imagem do Card</label>
+                    <input name="imagem" class="campo__escrita" required
                         placeholder="Por exemplo: https://img.freepik.com/fotos-gratis/nave-espacial-orbita-o-cometa-azul-brilhante-da-galaxia-escura-gerado-pela-ia_188544-9662.jpg" id='url' data-imagem/>
                 </div>
 
@@ -42,13 +42,13 @@
                 <div class="formulario__campo">
                     <label class="campo__etiqueta" for="titulo">Titulo do Card</label>
                     <input name="titulo" class="campo__escrita" required placeholder="Neste campo, dê o nome do card"
-                        id='titulo' data-titulo/>
+                        id='titulo' data-nome/>
                 </div>
 
                 <div class="formulario__campo">
                     <label class="campo__etiqueta" for="imagem">Valor do card</label>
-                    <input name="imagem" class="campo__escrita" required placeholder="Insira o valor do card"
-                        id='imagem' data-valor/>
+                    <input name="valor" class="campo__escrita" required placeholder="Insira o valor do card"
+                        id='valor' data-valor/>
                 </div>
                 <input class="formulario__botao" type="submit" />
         </form>
@@ -65,5 +65,7 @@
                 </div>
             </div>
         </footer>
+
+        <script src="./JavaScript/criarCard.js" type="module"></script>
 </body>
 </html>

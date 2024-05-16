@@ -57,7 +57,7 @@
     width: 50vw;
     border-radius: 24px;
     display: block;
-    color: black;
+    color: var(--cor-de-paragrafo);
     padding: 1em;
     background-color: var(--cor--black);
     margin-top: 1em;

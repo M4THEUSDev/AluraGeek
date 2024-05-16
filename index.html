@@ -32,10 +32,10 @@
         <div class="titulo__center">
             <h2 class="formulario__titulo">Envie um card!</h2>
         </div>
-        <form class="container__formulario" data-formulario>
+        <form class="container__formulario" data-imagem>
                 <div class="formulario__campo">
-                    <label class="campo__etiqueta" for="url">Imagem do Card</label>
-                    <input name="url" class="campo__escrita" required
+                    <label class="campo__etiqueta" for="imagem">Imagem do Card</label>
+                    <input name="imagem" class="campo__escrita" required
                         placeholder="Por exemplo: https://img.freepik.com/fotos-gratis/nave-espacial-orbita-o-cometa-azul-brilhante-da-galaxia-escura-gerado-pela-ia_188544-9662.jpg" id='url' data-imagem/>
                 </div>
 
@@ -48,8 +48,8 @@
 
                 <div class="formulario__campo">
                     <label class="campo__etiqueta" for="imagem">Valor do card</label>
-                    <input name="imagem" class="campo__escrita" required placeholder="Insira o valor do card"
-                        id='imagem' data-valor/>
+                    <input name="valor" class="campo__escrita" required placeholder="Insira o valor do card"
+                        id='valor' data-valor/>
                 </div>
                 <input class="formulario__botao" type="submit" />
         </form>
@@ -59,106 +59,8 @@
         <div class="button__meus__produtos">
             <button class="button__meus__produtos__estilizado">Meus Produtos:</button>
         </div>
-        <div class="container__card">
-            <div class="card__item">
-                <div class="card__img">
-                    <img src="./imagens/unsplash_6FDXGY9J6y4.svg" alt="" srcset="">
-                </div>
-                <p>Stormtrooper</p>
-                <div class="texto__final">
-                    <p> $ 60,00 </p>
-                    <p><i class="fa-regular fa-trash-can"></i></p>
-                </div>
-            </div>
-            <div class="card__item">
-                <div class="card__img">
-                    <img src="./imagens/image 2.svg" alt="" srcset="">
-                </div>
-                <p>Game Boy Classic</p>
-                <div class="texto__final">
-                    <p> $ 60,00  </p>
-                    <p><i class="fa-regular fa-trash-can"></i></p>
-                </div>
-            </div>
-
-            <div class="card__item">
-                <div class="card__img">
-                    <img src="./imagens/unsplash_6FDXGY9J6y4.svg" alt="" srcset="">
-                </div>
-                <p>Stormtrooper</p>
-                <div class="texto__final">
-                    <p> $ 60,00 </p>
-                    <p><i class="fa-regular fa-trash-can"></i></p>
-                </div>
-            </div>
-
-            <div class="card__item">
-                <div class="card__img">
-                    <img src="./imagens/unsplash_6FDXGY9J6y4.svg" alt="" srcset="">
-                </div>
-                <p>Stormtrooper</p>
-                <div class="texto__final">
-                    <p> $ 60,00 </p>
-                    <p><i class="fa-regular fa-trash-can"></i></p>
-                </div>
-            </div>
-
-
-            <div class="card__item">
-                <div class="card__img">
-                    <img src="./imagens/image 2.svg" alt="" srcset="">
-                </div>
-                <p>Game Boy Classic</p>
-                <div class="texto__final">
-                    <p> $ 60,00 </p>
-                    <p><i class="fa-regular fa-trash-can"></i></p>
-                </div>
-            </div>
-
-            <div class="card__item">
-                <div class="card__img">
-                    <img src="./imagens/unsplash_6FDXGY9J6y4.svg" alt="" srcset="">
-                </div>
-                <p>Stormtrooper</p>
-                <div class="texto__final">
-                    <p> $ 60,00 </p>
-                    <p><i class="fa-regular fa-trash-can"></i></p>
-                </div>
-            </div>
-
-            <div class="card__item">
-                <div class="card__img">
-                    <img src="./imagens/unsplash_6FDXGY9J6y4.svg" alt="" srcset="">
-                </div>
-                <p>Stormtrooper</p>
-                <div class="texto__final">
-                    <p> $ 60,00 </p>
-                    <p><i class="fa-regular fa-trash-can"></i></p>
-                </div>
-            </div>
-
-
-            <div class="card__item">
-                <div class="card__img">
-                    <img src="./imagens/image 2.svg" alt="" srcset="">
-                </div>
-                <p>Game Boy Classic</p>
-                <div class="texto__final">
-                    <p> $ 60,00 </p>
-                    <p><i class="fa-regular fa-trash-can"></i></p>
-                </div>
-            </div>
-
-            <div class="card__item">
-                <div class="card__img">
-                    <img src="./imagens/unsplash_6FDXGY9J6y4.svg" alt="" srcset="">
-                </div>
-                <p>Stormtrooper</p>
-                <div class="texto__final">
-                    <p> $ 60,00 </p>
-                    <p><i class="fa-regular fa-trash-can"></i></p>
-                </div>
-            </div>
+        <div class="container__card" data-lista >
+               
         </div>
 
 
@@ -173,6 +75,9 @@
             </div>
         </div>
     </footer>
+
+    <script src="./JavaScript/conectaApi.js"></script>
+    <script src="./JavaScript/mostrarCard.js" type="module"></script>
 </body>
 
 </html>
