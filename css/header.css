@@ -39,23 +39,171 @@
 }
 
 
+@media only screen and (min-width: 960px) and (max-width: 1024px){
+    *{
+        overflow-x: hidden;
+    }
+
+    .cabecalho{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .cabecalho__menu{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: var(--cor-black);
+        width: 100%;
+    }
+    
+    
+    .cabecalho__conteudo{
+        display: flex;
+        padding: 15px;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        flex-wrap: wrap;
+        
+    }
+}
+
 /* Menor que o padrão 960 (dispositivos e navegadores) */
 @media only screen and (max-width: 959px) {
-   
+    *{
+        overflow-x: hidden;
+    }
+
+    .cabecalho{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .cabecalho__menu{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: var(--cor-black);
+        width: 100%;
+    }
+    
+    
+    .cabecalho__conteudo{
+        display: flex;
+        padding: 15px;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        flex-wrap: wrap;
+        margin: 0% 4%;
+    }
 }
 
 /* Tamanho retrato do tablet no padrão 960 (dispositivos e navegadores) */
 @media only screen and (min-width: 768px) and (max-width: 959px) {
-   
+    *{
+        overflow-x: hidden;
+    }
+
+    .cabecalho{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .cabecalho__menu{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: var(--cor-black);
+        width: 100%;
+    }
+    
+    
+    .cabecalho__conteudo{
+        display: flex;
+        padding: 15px;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        flex-wrap: wrap;
+        margin: 0% 4%;
+    }
 }
 
 /* Todos os tamanhos de celular (dispositivos e navegador) */
 @media only screen and (max-width: 767px) {
-   
+    *{
+        overflow-x: hidden;
+    }
+
+    .cabecalho{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .cabecalho__menu{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: var(--cor-black);
+        width: 100%;
+    }
+    
+    
+    .cabecalho__conteudo{
+        display: flex;
+        padding: 15px;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        flex-wrap: wrap;
+        margin: 0% 5%;
+    }
 }
 
 /* Tamanho de paisagem móvel para retrato de tablet (dispositivos e navegadores) */
 @media only screen and (min-width: 480px) and (max-width: 767px) {
+
+    *{
+        overflow-x: hidden;
+    }
+
+    .cabecalho{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .cabecalho__menu{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: var(--cor-black);
+        width: 100%;
+    }
+    
+    
+    .cabecalho__conteudo{
+        display: flex;
+        padding: 15px;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        flex-wrap: wrap;
+        margin: 0% 5%;
+    }
+
+    
     
 }
 
