@@ -11,10 +11,13 @@ async function criarCard(evento){
     const nome = document.querySelector("[data-nome]").value;
     const valor = document.querySelector("[data-valor]").value;
     
-
+    try {
     await conectaApi.criaCard(imagem, nome, valor);
 
     window.location.href ="../index.html";
+    } catch (e) {
+        alert(e);
+    }
 }
 
 formulario.addEventListener("submit", evento => criarCard(evento));

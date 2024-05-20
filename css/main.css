@@ -74,6 +74,7 @@
     border: 2px solid rgb(132, 0, 255);
     border-radius: 10px;
     margin: 10px;
+    
 }
 
 .card__item>p {
@@ -83,6 +84,7 @@
     color: var(--cor-de-paragrafo);
     margin: 10px;
     font-size: 0.87rem;
+    overflow: hidden;
 }
 
 
@@ -99,7 +101,8 @@
 }
 
 .texto__final p {
-    margin: 0;     
+    margin: 0;    
+    overflow: hidden; 
 }
 
 .card__img {

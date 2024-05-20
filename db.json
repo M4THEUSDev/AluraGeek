@@ -3,32 +3,38 @@
     {
       "imagem": "imagens/starWars.svg",
       "nome": "Storm",
-      "valor": "60,00"
+      "valor": "60,00",
+      "id": "db66"
     },
     {
       "imagem": "imagens/starWars.svg",
       "nome": "Storm",
-      "valor": "60,00"
+      "valor": "60,00",
+      "id": "80d6"
     },
     {
       "imagem": "imagens/starWars.svg",
       "nome": "Storm",
-      "valor": "60,00"
+      "valor": "60,00",
+      "id": "1947"
     },
     {
       "imagem": "imagens/starWars.svg",
       "nome": "Storm",
-      "valor": "60,00"
+      "valor": "60,00",
+      "id": "fb8c"
     },
     {
       "imagem": "imagens/starWars.svg",
       "nome": "Storm",
-      "valor": "60,00"
+      "valor": "60,00",
+      "id": "a4fa"
     },
     {
       "imagem": "imagens/starWars.svg",
       "nome": "Storm",
-      "valor": "60,00"
+      "valor": "60,00",
+      "id": "6554"
     },
     {
       "id": "baac",
@@ -47,6 +53,24 @@
       "imagem": "https://media.licdn.com/dms/image/D4D03AQHEYj7-u4bqZw/profile-displayphoto-shrink_800_800/0/1714510878728?e=1721260800&v=beta&t=uKoRGFokcjKBvMtWeAgeI-KI0KjNEFoyP1w6JDRyjdQ",
       "nome": "Gu irmão ",
       "valor": "0,00"
+    },
+    {
+      "id": "b0ad",
+      "imagem": "https://f.i.uol.com.br/fotografia/2021/05/19/162145596360a5745b72aab_1621455963_3x2_md.jpg",
+      "nome": "Teste ",
+      "valor": "80,00"
+    },
+    {
+      "id": "1aee",
+      "imagem": "https://img.ibxk.com.br/2022/11/21/21143616130317.jpg?ims=fit-in/220x220/filters:fill(ffffff)",
+      "nome": "Conhecendo NestJS",
+      "valor": "75,00"
+    },
+    {
+      "id": "8830",
+      "imagem": "https://img.ibxk.com.br/2022/11/21/21143616130317.jpg?ims=fit-in/220x220/filters:fill(ffffff)",
+      "nome": "Conhecendo NestJS",
+      "valor": "75,00"
     }
   ]
 }

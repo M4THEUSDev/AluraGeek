@@ -14,7 +14,9 @@
     --main-bg-color: linear-gradient(180deg, #8B1FF8 0%, #041832 48.44%, #01080E 100%);
 }
 
-
+*{
+    overflow-x: hidden;
+}
 
 body {
     min-height: 100vh;
@@ -30,3 +32,18 @@ body {
 }
 
 
+.mensagem__titulo{
+    color: var(--cor-de-paragrafo);
+    font-size: 2rem;
+}
+
+
+.fa-regular.fa-trash-can {
+    cursor: pointer; /* Muda o cursor para indicar que é clicável */
+    color: var(--cor-de-paragrafo);
+    transition: color 0.3s ease; /* Animação suave na mudança de cor */
+}
+
+.fa-regular.fa-trash-can:hover {
+    color: #ff0000; /* Cor ao passar o mouse */
+}
