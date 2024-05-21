@@ -1,5 +1,4 @@
 import { conectaApi } from "./conectaApi.js";
-import {apagarCard} from "./apagarCard.js";
 
 
 const lista = document.querySelector("[data-lista]");
@@ -19,10 +18,13 @@ function constroiCard(imagem, nome, valor, id) {
 
     const apagar = card.querySelector('.fa-regular')
     apagar.addEventListener('click', async() => {
-        const idApagar = card.getAttribute('data-id')
-        console.log("idParaApagar", idApagar);
-        card.remove()
-        await apagarCard(idA)
+        const removeItemApi = await conectaApi.apagarCard(id);
+        if(removeItemApi.success) {
+            card.remove();
+        } else {
+            console.error("Erro ao apagar o card:" + removeItemApi.message);
+        }
+        
     })
 
     return card;
@@ -35,7 +37,7 @@ async function listaCard() {
     // try {
     const listaApi = await conectaApi.listaCard();
     listaApi.forEach(elemento => lista.appendChild(
-        constroiCard(elemento.imagem, elemento.nome, elemento.valor)))
+        constroiCard(elemento.imagem, elemento.nome, elemento.valor, elemento.id)))
     // } catch{   
     //     lista.innerHTML = `<h1 class="mensagem__titulo"> Não foi possível carregar a lista de cards</h1>`
     // }    

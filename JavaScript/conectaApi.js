@@ -32,7 +32,18 @@ async function criaCard(imagem, nome, valor){
     return conexaoConvertida
 }
 
+
+async function apagarCard(id) {
+
+    const conexao = await fetch(`http://localhost:3000/cards/${id}`, {
+        method: 'DELETE'
+    });
+
+    return conexao;
+}
+
 export const conectaApi = {
     listaCard,
-    criaCard
+    criaCard,
+    apagarCard
 }
