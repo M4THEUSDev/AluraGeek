@@ -35,6 +35,7 @@ body {
 .mensagem__titulo{
     color: var(--cor-de-paragrafo);
     font-size: 2rem;
+    overflow: hidden;
 }
 
 

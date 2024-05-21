@@ -24,9 +24,9 @@ async function criaCard(imagem, nome, valor){
     });
     
     // Exclamação significa, se a conexão for "DIFERENTE" de ok, faça isso: 
-    if(!conexao.ok) {
-        throw new Error("Não foi possível enviar a imagem");
-    }
+    // if(!conexao.ok) {
+    //     throw new Error("Não foi possível enviar a imagem");
+    // }
 
     const conexaoConvertida = await conexao.json();
     return conexaoConvertida
